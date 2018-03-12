@@ -8,22 +8,34 @@ The presentation of the video uses french. This was made by simulating fake SMS 
 ### Introduction
 
 Nimbe is a prototype for an interactive audiovisual performance with two main aspects – A visual one, projected at a screen, and an audio one for 8 channels, for an octophonic (a circle of 8 speakers) sound system. For this version, the sound is adapted to stereo. 
+
 The audience can send SMS messages during the performance to control a track that is part of the result. That track also has a visual counterpart, which shows as an arc. The users can then try to follow which arc and try they control.
 
 #### The arc and the track
 
 Each user controls a single arc that is associated to a track. There will be one for every member of the audience that chooses to take part in the performance by sending SMS messages. 
+
 The track is the sound that the user controls. Each arc has its own associated track that produces one constant sound at a specific frequency. 
+
+<img src="https://github.com/Vampolka/Nimbe/blob/master/nibmeArc.png" width="400">
+
 The track follows the movements of the arc. The further the arc is from the center, the higher the pitch of the track is. The origin of the sound from the arcs also follows their placement around the circle. If the arcs are located north, north-east and south-east, as shown in the picture, the sound from the tracks will come from those locations in the circle of speakers.
 The tracks together are all part of a single chord. While users can control the pitch of the track, those pitches will always stay within a specific chord.
+
+
 
 #### The SMS messages
 
 These are the following messages that the users can send to control their track. (Any message containing one of these commands will also work).
+
 On: Will open the track, either at the start, or after it has been turned off.
+
 Off: Will close the track and mute its sound, until it is turned back on.
+
 +: Will raise the pitch of the track, and move the arc accordingly.
+
 -: Will lower the pitch of the track, and lower the arc accordingly.
+
 North/South/East/West: Changes the origin of the sound of the track in the octophonic circle of speakers. The hybrid cardinal points, such as North-East, or South-West, will also work. Those cardinal points can be written in either French or English.
 
 
@@ -33,6 +45,11 @@ The performance lasts around 15 minutes. Over that time, different events will h
 This has been performed only once, at the Université de Montréal, in May 2017, during the concert series Ultrasons. The program has since been improved.
 
 ### How it works
+
+Nimbe is formed by 3 programs that run at the same time, communicating with each other.
+
+
+<img src="https://github.com/Vampolka/Nimbe/blob/master/nimbeSchema.png" width="600">
 
 #### Receiving or generating the SMS
 The First program is the one that receives the SMS from the users, SMSServer. It uses Nexmo as an API to receive SMS. It then sends the contents of those SMS to Nimbe using the UDP protocol.
