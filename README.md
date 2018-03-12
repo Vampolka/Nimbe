@@ -44,7 +44,7 @@ Nimbe is the core of the project, and by far the largest of those programs. Its 
 Nimbe is programmed in C++ using the openFrameworks toolkit. OpenFrameworks is an open source toolkit that is built on top of OpenGL and allows higher level functions to generate or process visuals and other utilities.
 
 
-####Generating the audio
+#### Generating the audio
 
 The last program, used solely to generate the audio, is written using SuperCollider. SuperCollider is a high-level language used to generate and process sound. It receives commands in OSC from Nimbe, and triggers/transposes/moves the played samples accordingly.
 
