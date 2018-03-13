@@ -70,52 +70,52 @@
     <ClCompile Include="src\track.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\baseEvent.cpp">
+    <ClCompile Include="src\Events\eventAbruptTransition.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventBass.cpp">
+    <ClCompile Include="src\Events\eventBass.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventAbruptTransition.cpp">
+    <ClCompile Include="src\Events\eventCenterOpacityFade.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventCenterOpacityFade.cpp">
+    <ClCompile Include="src\Events\eventChangeChord.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventChangeChord.cpp">
+    <ClCompile Include="src\Events\eventChangeSquare.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventChangeSquare.cpp">
+    <ClCompile Include="src\Events\eventChangeWiggle.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventChangeWiggle.cpp">
+    <ClCompile Include="src\Events\eventEverythingOff.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventEverythingOff.cpp">
+    <ClCompile Include="src\Events\eventEverythingOn.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventEverythingOn.cpp">
+    <ClCompile Include="src\Events\eventFluidTransition.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventFluidTransition.cpp">
+    <ClCompile Include="src\Events\eventHardColor.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventHardColor.cpp">
+    <ClCompile Include="src\Events\eventMoveCamera.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventMoveCamera.cpp">
+    <ClCompile Include="src\Events\eventOpacityFade.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventOpacityFade.cpp">
+    <ClCompile Include="src\Events\eventPlayDong.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventPlayDong.cpp">
+    <ClCompile Include="src\Events\eventVibration.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventVibration.cpp">
+    <ClCompile Include="src\Events\eventVolumeFade.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
-    <ClCompile Include="src\eventVolumeFade.cpp">
+    <ClCompile Include="src\Events\baseEvent.cpp">
       <Filter>src\Events</Filter>
     </ClCompile>
   </ItemGroup>
@@ -254,56 +254,56 @@
     <ClInclude Include="src\track.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="src\baseEvent.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventBass.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventAbruptTransition.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventCenterOpacityFade.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventChangeChord.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventChangeSquare.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventChangeWiggle.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventEverythingOff.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventEverythingOn.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventFluidTransition.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventHardColor.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventMoveCamera.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventOpacityFade.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventPlayDong.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventVibration.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\eventVolumeFade.h">
-      <Filter>src\Events</Filter>
-    </ClInclude>
     <ClInclude Include="src\definitions.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventAbruptTransition.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventBass.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventCenterOpacityFade.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventChangeChord.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventChangeSquare.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventChangeWiggle.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventEverythingOff.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventEverythingOn.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventFluidTransition.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventHardColor.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventMoveCamera.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventOpacityFade.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventPlayDong.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventVibration.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\eventVolumeFade.h">
+      <Filter>src\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Events\baseEvent.h">
+      <Filter>src\Events</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
