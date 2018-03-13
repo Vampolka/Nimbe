@@ -18,7 +18,7 @@ Each user controls a single arc that is associated to a track. There will be one
 The track is the sound that the user controls. Each arc has its own associated track that produces one constant sound at a specific frequency. 
 
 
-<img src="https://github.com/Vampolka/Nimbe/blob/master/nibmeArc.png" width="340">
+<img src="https://github.com/Vampolka/Nimbe/blob/master/Nimbe/bin/nibmeArc.png" width="340">
 
 The track follows the movements of the arc. The further the arc is from the center, the higher the pitch of the track is. The origin of the sound from the arcs also follows their placement around the circle. If the arcs are located north, north-east and south-east, as shown in the picture, the sound from the tracks will come from those locations in the circle of speakers.
 The tracks together are all part of a single chord. While users can control the pitch of the track, those pitches will always stay within a specific chord.
@@ -48,7 +48,7 @@ This has been performed only once, at the Université de Montréal, in May 2017,
 Nimbe is formed by 3 programs that run at the same time, communicating with each other.
 
 
-<img src="https://github.com/Vampolka/Nimbe/blob/master/nimbeSchema.png" width="500">
+<img src="https://github.com/Vampolka/Nimbe/blob/master/Nimbe/bin/nimbeSchema.png" width="500">
 
 #### Receiving or generating the SMS
 The First program is the one that receives the SMS from the users, SMSServer. It uses Nexmo as an API to receive SMS. It then sends the contents of those SMS to Nimbe using the UDP protocol.
