@@ -40,7 +40,7 @@ North/South/East/West: Changes the source of the sound of the track in the octop
 #### The performance
 
 The performance lasts around 15 minutes. Over that time, different events will happen, changing visual and audio aspects of the performance. The color, shape and movements of the arcs will change overtime. The chords will change, as well as the tone of the sounds used to produce the audio. Those events are not controlled by the users, they have been written in beforehand in the code.
-This project has been performed only once, at the Université de Montréal, in May 2017, during the concert series Ultrasons. The program has since been improved.
+This project has been performed only once, at the Université de Montréal, in April 2017, during the concert series Ultrasons. The program has since been improved.
 
 ### How it works
 
